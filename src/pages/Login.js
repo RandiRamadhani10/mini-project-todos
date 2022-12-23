@@ -1,9 +1,9 @@
 import React from "react";
-import { BaseButton, BaseInput } from "../components/atoms";
+import { BaseButton, BaseInput, BaseProgress } from "../components/atoms";
 const Login = () => {
   return (
     <div>
-      <BaseInput />
+      <BaseProgress value={100} />
     </div>
   );
 };

@@ -1,3 +1,4 @@
 import BaseButton from "./BaseButton";
 import BaseInput from "./BaseInput";
-export { BaseButton, BaseInput };
+import BaseProgress from "./BaseProgress";
+export { BaseButton, BaseInput, BaseProgress };
