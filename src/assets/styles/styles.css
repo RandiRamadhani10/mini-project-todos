@@ -1,0 +1,37 @@
+.danger {
+  background-color: #e11428;
+}
+.success {
+  background-color: #43936c;
+}
+.progress {
+  background-color: #01959f;
+}
+.warning {
+  background-color: #fa9810;
+}
+
+.white {
+  background-color: white;
+}
+.colorWhite {
+  color: white;
+}
+.colorDanger {
+  color: #e11428;
+}
+.colorSuccess {
+  color: #43936c;
+}
+.colorProgress {
+  color: #01959f;
+}
+.colorWarning {
+  color: #fa9810;
+}
+.colorBlack {
+  color: #333333;
+}
+.colorGray {
+  color: #FAFAFA;
+}
