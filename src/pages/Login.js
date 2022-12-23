@@ -1,7 +1,11 @@
 import React from "react";
-import { BaseButton } from "../components/atoms";
+import { BaseButton, BaseInput } from "../components/atoms";
 const Login = () => {
-  return <div></div>;
+  return (
+    <div>
+      <BaseInput />
+    </div>
+  );
 };
 
 export default Login;

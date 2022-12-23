@@ -1,3 +1,3 @@
 import BaseButton from "./BaseButton";
-
-export { BaseButton };
+import BaseInput from "./BaseInput";
+export { BaseButton, BaseInput };
