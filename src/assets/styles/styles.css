@@ -42,7 +42,6 @@
 .Popup {
   position: absolute;
   display: flex;
-
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -67,7 +66,7 @@
   position: absolute;
   right: 0px;
   bottom: -8rem;
-  z-index: 99;
+  z-index: 90;
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
   border-radius: 8px;
@@ -76,7 +75,7 @@
   padding: 18px;
 }
 .childPopup {
-  width: 25%;
+  width: 20rem;
   background: #ffffff;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -85,6 +84,14 @@
   display: flex;
   flex-direction: column;
 }
+@media only screen and (max-width: 426px) {
+  .childPopup {
+    width: 16rem;
+  }
+}
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 1;
+} 
 .msgPopup {
   text-align: justify;
   color: #404040;
@@ -125,7 +132,7 @@
   margin: 0px;
 }
 .w-25 {
-  width: 25%;
+  width: 8rem;
 }
 .w-50 {
   width: 50%;

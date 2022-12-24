@@ -6,10 +6,11 @@ const RoutesLink = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/Login" element={<Login />} />
+        <Route index path="/login" element={<Login />} />
         <Route path="/v1" element={<Main />} />
+        <Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter>  
   );
 };
 

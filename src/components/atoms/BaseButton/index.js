@@ -11,6 +11,7 @@ const BaseButton = ({
 }) => {
   return (
     <button
+      type="submit"
       onClick={() => {
         onClick();
       }}
