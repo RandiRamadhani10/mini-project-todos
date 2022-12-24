@@ -1,0 +1,30 @@
+.containerLogin {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-self: stretch;
+}
+.containerLogin {
+  background: url("https://cdn5.f-cdn.com/contestentries/1578585/21468461/5d62b49ac544b_thumb900.jpg");
+  background-size: 100% auto;
+}
+
+.formLogin {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: #e3def076;
+}
+.titleLogin {
+  font-size: 16;
+  font-weight: 700;
+  margin: 0px;
+}

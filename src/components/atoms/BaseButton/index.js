@@ -1,16 +1,23 @@
 import React from "react";
 import "./styles.css";
 import "../../../assets/styles/styles.css";
-const BaseButton = ({ name, color, onClick }) => {
-  console.log(name);
+const BaseButton = ({
+  name = "white",
+  color = "colorPureBlack",
+  onClick = () => {
+    console.log(false);
+  },
+  text = "text",
+}) => {
   return (
     <button
+      type="submit"
       onClick={() => {
         onClick();
       }}
       className={"p shadow " + name}
     >
-      <span className={"text " + color}>cancel</span>
+      <span className={"textButton " + color}>{text}</span>
     </button>
   );
 };

@@ -1,0 +1,11 @@
+.textLabel {
+  font-weight: 400;
+  /* font-size: 12px; */
+}
+.containerLabel {
+  padding: 2px 8px;
+  display: flex;
+  justify-self: flex-start;
+  border: 1px solid;
+  border-radius: 4px;
+}

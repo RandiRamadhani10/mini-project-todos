@@ -1,11 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { BaseButton, BaseInput, BaseProgress } from "../components/atoms";
+import { DeletePopup, AddtaskPopup, EdittaskPopup } from "../utils";
+import { LoginHome } from "../components/organisms";
 const Login = () => {
-  return (
-    <div>
-      <BaseProgress value={100} />
-    </div>
-  );
+  return <LoginHome />;
 };
 
 export default Login;
