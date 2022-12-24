@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 100%;
 }
 .text {
   padding: 0px 10px 0px 10px;
@@ -14,7 +15,7 @@ progress {
   height: 16px;
   margin-left: -11.5%;
   box-shadow: 1px 1px 4px #ededed;
-  margin: 10px;
+  margin: 10px 0px 10px;
 }
 progress::-webkit-progress-bar {
   background-color: #ededed;

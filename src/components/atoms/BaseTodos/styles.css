@@ -1,0 +1,50 @@
+.items {
+  display: flex;
+  flex-direction: column;
+}
+.itemsBone {
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+  padding: 8px 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+.card {
+  min-width: 20%;
+  margin: 10px;
+  padding: 16px;
+  max-height: 90%;
+  overflow-y: scroll;
+  border: 1px solid;
+  border-radius: 4px;
+}
+.monthTodos {
+  font-weight: 700;
+  font-size: 12px;
+  color: #404040;
+  margin: 0px;
+}
+.labelTodos {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card::-webkit-scrollbar {
+  display: none;
+}
+@media only screen and (max-width: 1025px) {
+  .card {
+    min-width: 30%;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .card {
+    min-width: 40%;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .card {
+    min-width: 70%;
+  }
+}

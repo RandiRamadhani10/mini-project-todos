@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../assets/styles/styles.css";
 import { IC_Warning, IC_Close } from "../assets/icons";
-import { BaseButton, Gap, BaseInput } from "../components/atoms";
+import { BaseButton, Gap, BaseInput, BaseButtonIcons } from "../components/atoms";
 export const DeletePopup = ({ setOpen, onDelete }) => {
   return (
     <div className={"Popup"}>
@@ -132,6 +132,16 @@ export const EdittaskPopup = ({ setOpen, value, progress }) => {
           <BaseButton name="progress" color="colorWhite" text="Save task" />
         </div>
       </div>
+    </div>
+  );
+};
+export const MorePopup = ({ setEdit, SetDelete, setRight, setLeft }) => {
+  return (
+    <div className="morePopup">
+      <BaseButtonIcons main={false} name="transparentButton" text="Move Right" icon="right" fontSize="12px" fontWeight="400" padding="6px" gap="18px" hover={true} />
+      <BaseButtonIcons main={false} name="transparentButton" text="Move Left" icon="left" fontSize="12px" fontWeight="400" padding="6px" gap="18px" hover={true} />
+      <BaseButtonIcons main={false} name="transparentButton" text="Edit" icon="edit" fontSize="12px" fontWeight="400" padding="6px" gap="18px" hover={true} />
+      <BaseButtonIcons main={false} name="transparentButton" text="Delete" icon="delete" fontSize="12px" fontWeight="400" padding="6px" gap="18px" hover={true} />
     </div>
   );
 };
