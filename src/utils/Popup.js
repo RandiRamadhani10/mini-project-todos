@@ -15,7 +15,6 @@ export const DeletePopup = () => {
     <form
       className={"Popup"}
       onSubmit={(e) => {
-        e.preventDefault();
         return onSubmit();
       }}
     >
