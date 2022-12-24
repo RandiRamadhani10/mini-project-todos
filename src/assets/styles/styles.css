@@ -33,5 +33,85 @@
   color: #333333;
 }
 .colorGray {
-  color: #FAFAFA;
+  color: #fafafa;
+}
+.colorPureBlack {
+  color: #1d1f20;
+}
+
+.Popup {
+  position: absolute;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #33333324;
+  z-index: 99;
+  transition: all 5s ease-in-out;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.childPopup {
+  width: 30%;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 24px;
+  animation: 0.5s 0s 1 slideInFromLeft;
+  display: flex;
+  flex-direction: column;
+}
+.msgPopup {
+  text-align: justify;
+  color: #404040;
+  font-weight: 400;
+  font-size: 14px;
+}
+.textPopup {
+  font-weight: 700;
+  font-size: 18px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.titlePopup {
+  display: flex;
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.btnClose {
+  all: unset;
+  cursor: pointer;
+}
+.choicePopup {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.inputPopup {
+  display: flex;
+}
+.textMain {
+  font-weight: 700;
+  font-size: 12px;
+  color: #404040;
+  margin: 0px;
+}
+.w-25 {
+  width: 25%;
+}
+.w-50 {
+  width: 50%;
 }

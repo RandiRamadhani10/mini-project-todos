@@ -1,3 +1,2 @@
-import { Colors } from "./Colors";
-
-export { Colors };
+export * from "./Colors";
+export * from "./Popup";

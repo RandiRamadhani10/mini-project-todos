@@ -8,8 +8,9 @@ button:hover {
   padding: 4px 16px;
 }
 
-.text {
+.textButton {
   font-size: 14px;
+  font-weight: 700;
 }
 .danger {
   background-color: #e11428;
